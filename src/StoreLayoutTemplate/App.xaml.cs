@@ -2,8 +2,10 @@
 
 using StoreLayoutTemplate.Helpers;
 using StoreLayoutTemplate.Services;
+using StoreLayoutTemplate.Views;
 
 using Windows.ApplicationModel.Activation;
+using Windows.ApplicationModel.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -25,6 +27,9 @@ namespace StoreLayoutTemplate
     {
       Frame rootFrame = Window.Current.Content as Frame;
 
+      var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
+      coreTitleBar.ExtendViewIntoTitleBar = true;
+
       ThemeService = new ThemeService(Window.Current);
       ThemeService.SetTheme();
 
@@ -40,7 +45,7 @@ namespace StoreLayoutTemplate
       {
         if (rootFrame.Content == null)
         {
-          rootFrame.Navigate(typeof(MainPage), e.Arguments);
+          rootFrame.Navigate(typeof(Main), e.Arguments);
         }
 
         Window.Current.Activate();
