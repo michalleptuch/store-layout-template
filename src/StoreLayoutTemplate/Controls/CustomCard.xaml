@@ -45,6 +45,9 @@
       <interactions:EventTriggerBehavior EventName="PointerEntered">
         <behaviors:StartAnimationAction Animation="{x:Bind ShadowEnterAnimation}" />
       </interactions:EventTriggerBehavior>
+      <interactions:EventTriggerBehavior EventName="PointerReleased">
+        <behaviors:StartAnimationAction Animation="{x:Bind ShadowEnterAnimation}" />
+      </interactions:EventTriggerBehavior>
       <interactions:EventTriggerBehavior EventName="PointerExited">
         <behaviors:StartAnimationAction Animation="{x:Bind ShadowExitAnimation}" />
       </interactions:EventTriggerBehavior>
