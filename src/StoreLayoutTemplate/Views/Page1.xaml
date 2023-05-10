@@ -18,7 +18,8 @@
         <Grid
           Height="420"
           Margin="0,16,0,0"
-          CornerRadius="8">
+          CornerRadius="8"
+          RequestedTheme="Dark">
           <Grid.Background>
             <ImageBrush ImageSource="ms-appx:///Images/HeroWallpaper.jpg" Stretch="UniformToFill" />
           </Grid.Background>
