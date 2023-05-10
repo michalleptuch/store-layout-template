@@ -32,12 +32,12 @@
     </ui:Effects.Shadow>
     <animations:Explicit.Animations>
       <animations:AnimationSet x:Name="ShadowEnterAnimation">
-        <animations:OpacityDropShadowAnimation To="0.2" />
-        <animations:TranslationAnimation To="0,-2,0" />
+        <animations:OpacityDropShadowAnimation To="0.2" Duration="0:0:0.167" />
+        <animations:TranslationAnimation To="0,-2,0" Duration="0:0:0.167" />
       </animations:AnimationSet>
       <animations:AnimationSet x:Name="ShadowExitAnimation">
-        <animations:OpacityDropShadowAnimation To="0" />
-        <animations:TranslationAnimation To="0,0,0" />
+        <animations:OpacityDropShadowAnimation To="0" Duration="0:0:0.167" />
+        <animations:TranslationAnimation To="0,0,0" Duration="0:0:0.167" />
       </animations:AnimationSet>
 
     </animations:Explicit.Animations>
