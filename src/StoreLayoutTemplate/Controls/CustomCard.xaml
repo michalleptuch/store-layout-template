@@ -36,7 +36,7 @@
     PointerExited="SetPointerNormalState"
     PointerPressed="SetPointerPressedState"
     PointerReleased="SetPointerOverState"
-    Translation="0,0,0">
+    Translation="0,0,2">
     <Grid.Shadow>
       <ThemeShadow />
     </Grid.Shadow>

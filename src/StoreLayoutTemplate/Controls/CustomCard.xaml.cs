@@ -34,19 +34,19 @@ namespace StoreLayoutTemplate.Controls
     private void SetPointerNormalState(object sender, PointerRoutedEventArgs e)
     {
       VisualStateManager.GoToState(this, "Normal", true);
-      BackgroundGrid.Translation = new Vector3(0, 0, 0);
+      BackgroundGrid.Translation = new Vector3(0, 0, 2);
     }
 
     private void SetPointerOverState(object sender, PointerRoutedEventArgs e)
     {
       VisualStateManager.GoToState(this, "PointerOver", true);
-      BackgroundGrid.Translation = new Vector3(0, -2, 6);
+      BackgroundGrid.Translation = new Vector3(0, -2, 12);
     }
 
     private void SetPointerPressedState(object sender, PointerRoutedEventArgs e)
     {
       VisualStateManager.GoToState(this, "Pressed", true);
-      BackgroundGrid.Translation = new Vector3(0, 0, 0);
+      BackgroundGrid.Translation = new Vector3(0, 0, 2);
     }
   }
 }
