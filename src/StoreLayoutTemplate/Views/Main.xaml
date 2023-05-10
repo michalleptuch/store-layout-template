@@ -84,27 +84,42 @@
       <muxc:NavigationView.MenuItems>
         <muxc:NavigationViewItem Content="Page 1">
           <muxc:NavigationViewItem.Icon>
-            <FontIcon FontFamily="ms-appx:///Fonts/StoreIcons.ttf#Store Fluent Icons" Glyph="" />
+            <FontIcon
+              Margin="-3"
+              FontFamily="ms-appx:///Fonts/FluentSystemIcons-Resizable.ttf#FluentSystemIcons-Resizable"
+              Glyph="" />
           </muxc:NavigationViewItem.Icon>
         </muxc:NavigationViewItem>
         <muxc:NavigationViewItem Content="Page 2">
           <muxc:NavigationViewItem.Icon>
-            <FontIcon FontFamily="ms-appx:///Fonts/StoreIcons.ttf#Store Fluent Icons" Glyph="" />
+            <FontIcon
+              Margin="-3"
+              FontFamily="ms-appx:///Fonts/FluentSystemIcons-Resizable.ttf#FluentSystemIcons-Resizable"
+              Glyph="" />
           </muxc:NavigationViewItem.Icon>
         </muxc:NavigationViewItem>
         <muxc:NavigationViewItem Content="Page 3">
           <muxc:NavigationViewItem.Icon>
-            <FontIcon FontFamily="ms-appx:///Fonts/StoreIcons.ttf#Store Fluent Icons" Glyph="" />
+            <FontIcon
+              Margin="-3"
+              FontFamily="ms-appx:///Fonts/FluentSystemIcons-Resizable.ttf#FluentSystemIcons-Resizable"
+              Glyph="" />
           </muxc:NavigationViewItem.Icon>
         </muxc:NavigationViewItem>
         <muxc:NavigationViewItem Content="Page 4">
           <muxc:NavigationViewItem.Icon>
-            <FontIcon FontFamily="ms-appx:///Fonts/StoreIcons.ttf#Store Fluent Icons" Glyph="" />
+            <FontIcon
+              Margin="-3"
+              FontFamily="ms-appx:///Fonts/FluentSystemIcons-Resizable.ttf#FluentSystemIcons-Resizable"
+              Glyph="" />
           </muxc:NavigationViewItem.Icon>
         </muxc:NavigationViewItem>
         <muxc:NavigationViewItem Content="Page 5">
           <muxc:NavigationViewItem.Icon>
-            <FontIcon FontFamily="ms-appx:///Fonts/StoreIcons.ttf#Store Fluent Icons" Glyph="" />
+            <FontIcon
+              Margin="-3"
+              FontFamily="ms-appx:///Fonts/FluentSystemIcons-Resizable.ttf#FluentSystemIcons-Resizable"
+              Glyph="" />
           </muxc:NavigationViewItem.Icon>
         </muxc:NavigationViewItem>
       </muxc:NavigationView.MenuItems>
@@ -112,7 +127,10 @@
       <muxc:NavigationView.FooterMenuItems>
         <muxc:NavigationViewItem Content="Settings">
           <muxc:NavigationViewItem.Icon>
-            <FontIcon FontFamily="ms-appx:///Fonts/StoreIcons.ttf#Store Fluent Icons" Glyph="" />
+            <FontIcon
+              Margin="-3"
+              FontFamily="ms-appx:///Fonts/FluentSystemIcons-Resizable.ttf#FluentSystemIcons-Resizable"
+              Glyph="" />
           </muxc:NavigationViewItem.Icon>
         </muxc:NavigationViewItem>
       </muxc:NavigationView.FooterMenuItems>

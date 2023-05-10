@@ -7,7 +7,9 @@
     <controls:XamlControlsResources>
       <controls:XamlControlsResources.MergedDictionaries>
         <ResourceDictionary Source="ms-appx:///Styles/AutoSuggestBox.xaml" />
+        <ResourceDictionary Source="ms-appx:///Styles/GridViewItem.xaml" />
         <ResourceDictionary Source="ms-appx:///Styles/NavigationView.xaml" />
+        <ResourceDictionary Source="ms-appx:///Styles/TextBlock.xaml" />
         <ResourceDictionary Source="ms-appx:///Styles/ToggleSwitch.xaml" />
       </controls:XamlControlsResources.MergedDictionaries>
     </controls:XamlControlsResources>
